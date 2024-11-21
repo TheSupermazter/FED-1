@@ -40,7 +40,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Architecture  
-  <img src="readme-images/IMG_8511.PNG" width="375px" alt="Architecture lego sets pagina">
+  <img src="readme-images/IMG_8532.PNG" width="375px" alt="Speelplek pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Kerstcadeau's   
@@ -57,7 +57,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  De screenreader hapert heel snel als je naar een andere pagina toe gaat.
+  Engelse namen worden verkeert uitgesproken zoals: "idea". 
+  Het sprak heel snel, maar ik kwam erachter dat dit aangepast kan worden. 
+  De navigatie menu klapt niet open.
+  Sommige afbeeldingen of knoppen hebben onduidelijke namen.
+  Het toetsenbord geeft wel geluidjes als een opdracht daarmee is gedaan als feedback.
 
+  ### Oplossingen
+  Kleurcontrast groot maken voor kleurenblinden.
+  Correcte namen aan tags geven, zodat deze goed voorgelezen worden en te snappen zijn.
+  Aria hidden = "true; gebruiken als onderdelen niet voorgezelen hoeven door de screenreader.
+  Zo veelmogelijk Nederlandse woorden gebruiken behalve bij namen (bijv: "Star Wars"). 
+  Ondertiteling bij video's plaatsen.
+
+  <img src="readme-images/FED WCAG checklist.pdf" alt="WCAG checklist toegangelijkheid op de Lego site.">
 </details>
 
 
@@ -67,14 +81,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  ### de hele pagina en gekozen content: 
+  <img src="readme-images/originele-breakdown-kerstcadeaus.pdf" width="375px" alt="breakdown van de hele pagina en de gekozen content">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### sections en header, main & body: 
+  <img src="readme-images/hoofd-sectie-kerstcadeaus.pdf" width="375px" alt="secties en header, main en body tags">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### html tags dynamische delen: 
+  <img src="readme-images/tags-kerstcadeaus.pdf" width="375px" alt="html tags op dynamische delen van de pagina">
 
 </details>
 
