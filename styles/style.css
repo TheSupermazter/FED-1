@@ -49,7 +49,7 @@ header {
 	/* margin-right: auto; */
 }
 
-article a img, nav ul li a img {
+article button img, nav ul li a img {
 	width: 1.25em;
 	height: auto;
 }
@@ -106,13 +106,14 @@ ol :first-of-type a {
 	display: flex;
 	background-color: white;
 	align-items: center;
+	gap: 0.5em;
 }
 
 /***************/
 /* ... */
 /**************/
 .banner {
-	width: 23.4em;
+	width: 100%;
 	height: auto;
 }
 
@@ -124,4 +125,39 @@ ol :first-of-type a {
 	padding: .6em 1.25em;
 	border: 2px solid #004848;
 	border-radius: 1.56em;
+}
+
+/***************/
+/* ... */
+/**************/
+.hoofdTekst {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+}
+
+/***************/
+/* ... */
+/**************/
+main > section:nth-of-type(3) ul{
+	display: flex;
+	text-align: center;
+	gap: .4em;
+	flex-wrap: wrap;
+	margin: 0;
+}
+
+main > section:nth-of-type(3) img {
+	width: 4.94em;
+	height: auto;
+}
+
+.rondeKnoppen2 {
+	display: inline-block;
+	padding: .6em 1.25em;
+	border: 2px solid #004848;
+	background-color: #004848;
+	border-radius: 1.56em;
+	color: white;
 }
