@@ -71,7 +71,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Zo veelmogelijk Nederlandse woorden gebruiken behalve bij namen (bijv: "Star Wars"). 
   Ondertiteling bij video's plaatsen.
 
-  <img src="readme-images/FED WCAG checklist.pdf" alt="WCAG checklist toegangelijkheid op de Lego site.">
+
 </details>
 
 
@@ -82,13 +82,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina en gekozen content: 
-  <img src="readme-images/originele-breakdown-kerstcadeaus.pdf" width="375px" alt="breakdown van de hele pagina en de gekozen content">
+  <img src="" width="375px" alt="breakdown van de hele pagina en de gekozen content">
 
   ### sections en header, main & body: 
-  <img src="readme-images/hoofd-sectie-kerstcadeaus.pdf" width="375px" alt="secties en header, main en body tags">
+  <img src="" width="375px" alt="secties en header, main en body tags">
 
   ### html tags dynamische delen: 
-  <img src="readme-images/tags-kerstcadeaus.pdf" width="375px" alt="html tags op dynamische delen van de pagina">
+  <img src="" width="375px" alt="html tags op dynamische delen van de pagina">
 
 </details>
 
