@@ -18,8 +18,6 @@
 //   nav.classList.remove('toonMenu');
 // }
 
-console.log("dit is helemaal vooraan")
-
 function createCaroCarrousel(carrouselID) {
 	let carrousel = document.querySelector("#"+carrouselID);
   let carrouselElementsContainer = carrousel.querySelector(":scope > ul");
@@ -77,12 +75,11 @@ function createCaroCarrousel(carrouselID) {
     carrouselElementsContainer.scrollLeft = 0;
   }
   
-
-
+  
   /*********************/
 	/* ALGEMENE FUNCTIES */
 	/*********************/
-    console.log("dit is op een kwart")
+  
   ////////////////////////////
 	// update current element //
 	function updateCurrentElement(newElement) {
@@ -118,17 +115,15 @@ function createCaroCarrousel(carrouselID) {
   iniStartPosition();
 }
 
-console.log("dit is op de helft")
 
 /************************/
 /* DE CARROUSEL CREËREN */
 /************************/
 
-document.addEventListener('DOMContentLoaded', function() {
-    // Hier de id's van de carrousels die je wilt activeren
-    createCaroCarrousel("justBolletjes");
-  
-    // Voor meerdere carrousels kun je dit uitbreiden
-    // createCaroCarrousel("andereCarrousel");
-  });
+// nadat de pagina geladen is, de carrousels activeren
+(function() {
+  // hier de id gebruiken van de section in de html
+  createCaroCarrousel("justBolletjes");
+  //je kunt hier ook meerdere carrousellen activeren
+})();
   

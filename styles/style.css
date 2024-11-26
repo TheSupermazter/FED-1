@@ -54,7 +54,7 @@ div button img, nav ul li a img {
 	height: auto;
 }
 
-nav {
+header nav {
 	position: fixed;
 	top: 0;
 	bottom: 0;
