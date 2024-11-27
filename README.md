@@ -38,13 +38,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je opdracht:
   https://www.lego.com/nl-nl 
 
-  #### Screenshot(s) van de eerste pagina (small screen): 
-  Architecture  
-  <img src="readme-images/IMG_8532.PNG" width="375px" alt="Speelplek pagina">
-
-  #### Screenshot(s) van de tweede pagina (small screen):
+  #### Screenshot(s) van de eerste pagina (small screen):
   Kerstcadeau's   
   <img src="readme-images/IMG_8512.PNG" width="375px" alt="Kerstcadeau's pagina">
+
+  #### Screenshot(s) van de tweede pagina (small screen): 
+  speelplek
+  <img src="readme-images/IMG_8532.PNG" width="375px" alt="Speelplek pagina">
  
 </details>
 
@@ -55,23 +55,89 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-  De screenreader hapert heel snel als je naar een andere pagina toe gaat.
-  Engelse namen worden verkeert uitgesproken zoals: "idea". 
-  Het sprak heel snel, maar ik kwam erachter dat dit aangepast kan worden. 
-  De navigatie menu klapt niet open.
-  Sommige afbeeldingen of knoppen hebben onduidelijke namen.
-  Het toetsenbord geeft wel geluidjes als een opdracht daarmee is gedaan als feedback.
+  ### Bevindingen na de screenreader test
+  - Lijst met je bevindingen die in de test naar voren kwamen:
+  - De screenreader hapert heel snel als je naar een andere pagina toe gaat.
+  - Engelse namen worden verkeert uitgesproken zoals: "idea". 
+  - Het sprak heel snel, maar ik kwam erachter dat dit aangepast kan worden. 
+  - De navigatie menu klapt niet open.
+  - Sommige afbeeldingen of knoppen hebben onduidelijke namen.
+  - Het toetsenbord geeft wel geluidjes als een opdracht daarmee is gedaan als feedback.
 
   ### Oplossingen
-  Kleurcontrast groot maken voor kleurenblinden.
-  Correcte namen aan tags geven, zodat deze goed voorgelezen worden en te snappen zijn.
-  Aria hidden = "true; gebruiken als onderdelen niet voorgezelen hoeven door de screenreader.
-  Zo veelmogelijk Nederlandse woorden gebruiken behalve bij namen (bijv: "Star Wars"). 
-  Ondertiteling bij video's plaatsen.
+  - Kleurcontrast groot maken voor kleurenblinden.
+  - Correcte namen aan tags geven, zodat deze goed voorgelezen worden en te snappen zijn.
+  - Aria hidden = "true; gebruiken als onderdelen niet voorgezelen hoeven door de screenreader.
+  - Zo veelmogelijk Nederlandse woorden gebruiken behalve bij namen (bijv: "Star Wars"). 
+  - Ondertiteling bij video's plaatsen.
 
+  ### Bevindingen WCAG checklist
+  Content 
+  - De website gebruikt duidelijke taal en vermijd stijlfiguren, idiomen en ingewikkelde metaforen. Maar Engelse woorden worden niet goed uitgesproken.
+  - De inhoud van knoppen, links en fomrulieren, hebben een unieke en duidelijke beschrijvingen.
 
+  Global code 
+  - De HTML code is vrijwel gevalideert, echter zijn er wel een aantal errors. 
+  - ??? Gebruik een lang attribuut voor het html-element.
+  - Elke pagina heeft zijn eigen unieke titel.
+  - ??? Zorg ervoor dat de viewport-zoom niet is uitgeschakeld.
+
+  Keyboard
+  - Er is een zichtbare focusstijl voor interactieve elementen waarnaar wordt genavigeerd (tab en shift + tab) via toetsenbord invoer. Maar soms loopt deze vast nadat er is genavigeerd vooral als er naar een volgende pagina wordt genavigeerd.
+  - De focusvolgorde van het toetsenbord komt overeen met de visuele lay-out.
+  
+  Mobile and touch
+  - ??? Controleer of de site in elke richting kan worden gedraaid.
+  - ??? Horizontaal scrollen verwijderen.
+  - Knoppen en linkpictogrammen kunnen gemakkelijk worden geactiveerd.
+  - Er is voldoende ruitme tussen interactieve items om een scrolgebied te creëen.
+
+  Headings
+  - Er worden kopelementen gebruikt om inhoud te introduceren.
+  - Er wordt één h1 tag gebruikt op een pagina.
+  - Kopelementen worden in een logische volgorde geschreven.
+  - Kopniveaus worden niet overgeslagen.
+
+  Lists
+  - Er worden listelementen gebruikt voor lijstinhoud.
+  
+  Images
+  - Niet alle images hebben een alt atribute. 
+  - Decoratieve plaatsen hebben geen alt atribute.
+  - ??? Bied een tekstalternatief voor complexe afbeeldingen zoals diagrammen, grafieken en kaarten.
+  - Afbeeldingen die tekst bevatten, hebben een alt-beschrijving. Deze is soms niet heel concreet.
+
+  Media
+  - Video's worden wel automatisch afgespeeld.
+  - Alle media kan in ieder geval met de muis worden gepauzeerd, maar met de toetsenbord is het mij nog niet gelukt (het kan kloppen dat ik niet de goede combinatie weet op mijn toetsenbord om dat met een screenreader te kunnen doen).
+  - Er zijn geen ondertitels aanwezig bij video's.
+  - Audio transcripties zijn niet aanwezig. 
+
+  Controls
+  - Er worden a elementen gebruikt voor links.
+  - Links zijn herkenbaar als links.
+  - ??? Zorg ervoor dat de besturingselementen de status :focus hebben.
+  - Er worden button elementen gebruikt voor buttons.
+  - ??? Zorg voor een skip-link en zorg ervoor dat deze zichtbaar is wanneer de focus ligt.
+  - Links die in een nieuwe tablad of venster worden geopend worden geïdentiviseerd.
+
+  Appearance
+  - De donkere modus wordt niet ondersteund.
+  - Hoge-contrast modus wordt ondersteund.
+  - ??? Vergroot de tekstgrootte naar 200%.
+  - Kleur is niet de enige manier waarop informatie wordt overgebracht.
+  
+  Animation 
+  - Animaties zijn subtiel op de website.
+  - Er is geen mechanisme om achtergrond video te pauzeren.
+  - ??? Zorg ervoor dat alle animaties voldoen aan de mediaquery 'Voorkeur voor verminderde beweging'.
+  
+  Color contrast
+  - Alle teksten hebben een normaal formaat.
+  - Alle teksten hebben een contrast.
+  - Alle icoons hebben een contrast.
+  - ??? Controleer tekst die afbeeldingen of video overlapt.
+  - ??? Controleer aangepaste ::selectiekleuren.
 </details>
 
 
@@ -108,20 +174,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1 Tess                                                           | student 2          | student 3    | student 4        |
+  | ---                                                                      | ---                | ---          | ---              |
+  | Moet ik onder plaatjes een p of een h gebruiken?                         | en dit             | en ik dit    | en dan ik dat    |
+  | Als het scherm groter wordt verandere mijn plaatjes, hoe doe ik dit?     | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Waarneer gebruik je een descendant in CSS?                               | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik moet opnieuw mijn breakdown schets maken, want in Miro kan deze niet als image in hoge kwaliteit worden gemaakt. Ik kreeg als tip om het in Figma te doen. 
+  - Voor icoontjes moet ik ::before gebruiken in plaats van een img tag, want zo wordt het toegankelijker. Maar later kreeg ik als opmerking van de docent Ivo dat ik ook een alt tag of een aria-label kan doen, want zo worden de icoontjes ook voorgelzen met de screenreader. 
+  - De button die in een article stonden moesten veranderd worden naar een div. 
+  - P in de section exclusieve veranderen naar een H tag.
+  - Als ik een img wil veranderen van source omdat mijn pagina groter wordt moet ik in de html de media tag gebruiken.
+  - MDN is een goede website!
 
 </details>
 
@@ -141,11 +209,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1 Tess                                                                   | student 2          | student 3    | student 4        |
+  | ---                                                                              | ---                | ---          | ---              |
+  | Wanneer gebruik je een div en wanneer een article?                               | en dit             | en ik dit    | en dan ik dat    |
+  | Wat is er mis met mijn hambugermenu dat het niet werkt?                          | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Hoe orden ik een lijstje van mijn hamburger menu in nog een aantal lijstjes?     | ...                | ...          | ...              |
+  | Hoe maak in een carousel van de artikelen?                                       | ...                | ...          | ...              |
+  | Hoe maak in de afstand in een grid-template kleiner?                             | ...                | ...          | ...              |
+  | Waarom wordt de class "icons" in de image tag opgegeven moment niet pasbaar?     | ...                | ...          | ...              |
+  | Bij mijn volgende pagina (speelplek) maak ik ook sections, hoe moet ik deze dan naar css linken nu op mijn eerste pagina (kerstcadeaus) noem ik de section met de :nth-of-type    | ...                | ...          | ...              |
 
 
   ### Verslag van meeting

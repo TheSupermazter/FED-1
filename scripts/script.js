@@ -18,6 +18,8 @@
 //   nav.classList.remove('toonMenu');
 // }
 
+
+//Bron: https://codepen.io/shooft/pen/ZEpXmrg gebruikt voor het maken van de bolletjes onder de plaatjes, maar ik heb er zelf nummertjes van gemaakt
 function createCaroCarrousel(carrouselID) {
 	let carrousel = document.querySelector("#"+carrouselID);
   let carrouselElementsContainer = carrousel.querySelector(":scope > ul");
