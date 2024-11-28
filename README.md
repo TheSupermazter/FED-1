@@ -147,14 +147,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina en gekozen content: 
-  <img src="" width="375px" alt="breakdown van de hele pagina en de gekozen content">
+  ### Breakdown schets, kerstcadeaus: 
+  <img src="readme-images/breakdown-kerstcadeaus.png" width="375px" alt="breakdown schets van de pagina: kerstcadeaus">
 
-  ### sections en header, main & body: 
-  <img src="" width="375px" alt="secties en header, main en body tags">
-
-  ### html tags dynamische delen: 
-  <img src="" width="375px" alt="html tags op dynamische delen van de pagina">
+  ### Breakdown schets, speelplek: 
+  <img src="readme-images/breakdown-speelplek.png" width="375px" alt="breakdown schets van de pagina: speelplek">
 
 </details>
 
