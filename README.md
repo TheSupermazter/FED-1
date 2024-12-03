@@ -220,10 +220,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Input type is email gebruiken in plaats van text.
+  - :user-invalid gebruiken om de email gevlideerd of niet gevalideert checken in CSS.
+  - Kies of je een class of nth-of-type gebruikt voor CSS 
+  - In een lijst een lijstje maken voor de menu. Je moet een paar maken 2-3, maar je hoeft niet alles te doen. 
+  - Winkelwagen veranderen naar een a tag 
+  - Artikelen ordening veranderen zodat het logisch is voor een screenreader
+  - regel 120 article veranderen naar div
+  - HREF naar # veranderen 
+  - Plaatjes veranderen naar procenten 
 
 </details>
 
